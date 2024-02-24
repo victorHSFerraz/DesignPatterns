@@ -10,3 +10,6 @@ O Facade (Fachada) é um padrão de projeto estrutural que fornece uma interface
 
 ## Como Usar
 Inclua uma classe `Facade` em seu projeto que encapsula a complexidade das operações internas. Os usuários interagem apenas com a classe `Facade`, que gerencia as chamadas para os subsistemas mais complicados.
+
+## Exemplo Prático
+Considere um sistema de computador que precisa ser inicializado antes de ser usado. O sistema de inicialização pode envolver várias etapas, como inicializar o processador, a memória, o disco rígido e assim por diante. Em vez de forçar os clientes a lidar com cada uma dessas etapas, podemos criar uma classe `ComputerFacade` que lida com todas as etapas de inicialização. Isso permite que os clientes inicializem o sistema com uma única chamada para a classe `ComputerFacade`.
